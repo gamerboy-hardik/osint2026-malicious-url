@@ -1,0 +1,16 @@
+{
+  "name": "scantotal-defense-grid",
+  "description": "ScanTotal Cyber Threat Intelligence & X.509 PKI Audit Grid",
+  "version": "4.9.2",
+  "author": "Cyber Threat Defense",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "wsl": "wsl ./start_linux.sh",
+    "build:css": "npx tailwindcss -i ./css/style.css -o ./style.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "tailwindcss": "^3.3.6"
+  }
+}
